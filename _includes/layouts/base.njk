@@ -3,9 +3,11 @@
 
 	{% include "components/head.njk" %}
 
-	<body class="stretched" data-loader-html="<img class='infinite animated pulse' src='barber/images/slider-logo.svg' width='300'>">
-
-		{% include "components/footer.njk" %}
+	<body class="stretched">
+	<main>
+		{{ layoutContent | safe }}
+	</main>
+	{% include "components/footer.njk" %}
 
 	</body>
 
