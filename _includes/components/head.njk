@@ -1,0 +1,41 @@
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Julia Bailey" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Serif:400,400i" rel="stylesheet" type="text/css" />
+	{% set css %}
+  
+    {% include "assets/css/bootstrap.css" %}
+    {% include "assets/style.css" %}
+    {% include "assets/css/dark.css" %}
+
+    <!-- Barber Demo Specific Stylesheet -->
+    {% include "assets/barber/barber.css" %}
+    {% include "assets/barber/css/fonts.css" %}
+    <!-- / -->
+
+    {% include "assets/css/font-icons.css" %}
+    {% include "assets/css/animate.css" %}
+    {% include "assets/css/magnific-popup.css" %}
+
+    {% include "assets/one-page/css/et-line.css" %}
+
+    {% include "assets/css/responsive.css" %}
+
+    {% include "assets/barber/css/colors.css" %}
+  {% endset %}
+  <style>{{ css | cssmin | safe }}</style>
+	<!-- Document Title
+	============================================= -->
+	<title>Shang-gri-la Salon | Julia Bailey @ Salong Concepts</title>
+
+	<style>
+		/* Page Loading Style */
+		.css3-spinner {height:100vh; -webkit-box-align:center; -ms-flex-align:center; align-items:center; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; background-color: #bF9456; } @keyframes pulse {0% {opacity: 0; -webkit-transform: scale3d(.8, .8, .8); transform: scale3d(.8, .8, .8); } 50% { opacity: 1; } } .infinite.animated.pulse { -webkit-animation-duration: 1.7s; animation-duration: 1.7s; }
+	</style>
+
+</head>
