@@ -1,564 +1,957 @@
 <!DOCTYPE html>
-<!-- saved from url=(0031)http://shang-gri-la.com/ -->
-<html data-wf-domain="shang-gri-la.webflow.io" data-wf-page="5839d81d1c4185d4362bfe03" data-wf-site="5839d81d1c4185d4362bfe00"
-	data-wf-status="1" class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-oswald-n3-active wf-oswald-n4-active wf-oswald-n7-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active gr__shang-gri-la_webflow_io wf-droidsans-n4-active wf-droidsans-n7-active wf-active"
-	style="">
-
+<html dir="ltr" lang="en-US">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<style type="text/css">
-		.gm-style .gm-style-cc span,
-		.gm-style .gm-style-cc a,
-		.gm-style .gm-style-mtc div {
-			font-size: 10px
-		}
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Serif:400,400i" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+
+	<!-- Barber Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="barber/barber.css" type="text/css" />
+	<link rel="stylesheet" href="barber/css/fonts.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="barber/css/colors.css" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Barber | Canvas</title>
+
+	<style>
+		/* Page Loading Style */
+		.css3-spinner {height:100vh; -webkit-box-align:center; -ms-flex-align:center; align-items:center; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; background-color: #bF9456; } @keyframes pulse {0% {opacity: 0; -webkit-transform: scale3d(.8, .8, .8); transform: scale3d(.8, .8, .8); } 50% { opacity: 1; } } .infinite.animated.pulse { -webkit-animation-duration: 1.7s; animation-duration: 1.7s; }
 	</style>
-	<style type="text/css">
-		@media print {
-			.gm-style .gmnoprint,
-			.gmnoprint {
-				display: none
-			}
-		}
-		
-		@media screen {
-			.gm-style .gmnoscreen,
-			.gmnoscreen {
-				display: none
-			}
-		}
-	</style>
-	<style type="text/css">
-		.gm-style .gm-style-iw {
-			font-weight: 300;
-			font-size: 13px;
-			overflow: hidden
-		}
-		
-		.gm-style .gm-iw {
-			color: #2c2c2c
-		}
-		
-		.gm-style .gm-iw b {
-			font-weight: 400
-		}
-		
-		.gm-style .gm-iw a:link,
-		.gm-style .gm-iw a:visited {
-			color: #4272db;
-			text-decoration: none
-		}
-		
-		.gm-style .gm-iw a:hover {
-			color: #4272db;
-			text-decoration: underline
-		}
-		
-		.gm-style .gm-iw .gm-title {
-			font-weight: 400;
-			margin-bottom: 1px
-		}
-		
-		.gm-style .gm-iw .gm-basicinfo {
-			line-height: 18px;
-			padding-bottom: 12px
-		}
-		
-		.gm-style .gm-iw .gm-website {
-			padding-top: 6px
-		}
-		
-		.gm-style .gm-iw .gm-photos {
-			padding-bottom: 8px;
-			-ms-user-select: none;
-			-moz-user-select: none;
-			-webkit-user-select: none
-		}
-		
-		.gm-style .gm-iw .gm-sv,
-		.gm-style .gm-iw .gm-ph {
-			cursor: pointer;
-			height: 50px;
-			width: 100px;
-			position: relative;
-			overflow: hidden
-		}
-		
-		.gm-style .gm-iw .gm-sv {
-			padding-right: 4px
-		}
-		
-		.gm-style .gm-iw .gm-wsv {
-			cursor: pointer;
-			position: relative;
-			overflow: hidden
-		}
-		
-		.gm-style .gm-iw .gm-sv-label,
-		.gm-style .gm-iw .gm-ph-label {
-			cursor: pointer;
-			position: absolute;
-			bottom: 6px;
-			color: #fff;
-			font-weight: 400;
-			text-shadow: rgba(0, 0, 0, 0.7) 0 1px 4px;
-			font-size: 12px
-		}
-		
-		.gm-style .gm-iw .gm-stars-b,
-		.gm-style .gm-iw .gm-stars-f {
-			height: 13px;
-			font-size: 0
-		}
-		
-		.gm-style .gm-iw .gm-stars-b {
-			position: relative;
-			background-position: 0 0;
-			width: 65px;
-			top: 3px;
-			margin: 0 5px
-		}
-		
-		.gm-style .gm-iw .gm-rev {
-			line-height: 20px;
-			-ms-user-select: none;
-			-moz-user-select: none;
-			-webkit-user-select: none
-		}
-		
-		.gm-style.gm-china .gm-iw .gm-rev {
-			display: none
-		}
-		
-		.gm-style .gm-iw .gm-numeric-rev {
-			font-size: 16px;
-			color: #dd4b39;
-			font-weight: 400
-		}
-		
-		.gm-style .gm-iw.gm-transit {
-			margin-left: 15px
-		}
-		
-		.gm-style .gm-iw.gm-transit td {
-			vertical-align: top
-		}
-		
-		.gm-style .gm-iw.gm-transit .gm-time {
-			white-space: nowrap;
-			color: #676767;
-			font-weight: bold
-		}
-		
-		.gm-style .gm-iw.gm-transit img {
-			width: 15px;
-			height: 15px;
-			margin: 1px 5px 0 -20px;
-			float: left
-		}
-		
-		.gm-iw {
-			text-align: left;
-		}
-		
-		.gm-iw .gm-numeric-rev {
-			float: left;
-		}
-		
-		.gm-iw .gm-photos,
-		.gm-iw .gm-rev {
-			direction: ltr;
-		}
-		
-		.gm-iw .gm-stars-f,
-		.gm-iw .gm-stars-b {
-			background: url("https://maps.gstatic.com/mapfiles/api-3/images/review_stars_hdpi.png") no-repeat;
-			background-size: 65px 26px;
-			float: left;
-		}
-		
-		.gm-iw .gm-stars-f {
-			background-position: left -13px;
-		}
-		
-		.gm-iw .gm-sv-label,
-		.gm-iw .gm-ph-label {
-			left: 4px;
-		}
-	</style>
-	<style type="text/css">
-		.gm-style {
-			font-family: Roboto, Arial, sans-serif;
-			font-size: 11px;
-			font-weight: 400;
-			text-decoration: none
-		}
-		
-		.gm-style img {
-			max-width: none
-		}
-	</style>
-	<title>Shang-gri-la Salon @ Salon Concepts</title>
-	<meta content="I specialize in providing quality services you would expect from a big salon, but in a personal and serene environment at an exceptional value. My talent is here to bring you beauty solutions through my expert hair styling, color techniques and more."
-		name="description">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<meta content="Webflow" name="generator">
-	<link href="styles.css" rel="stylesheet" type="text/css"><script src="assets/webfont.js"></script>
-	<script type="text/javascript">WebFont.load({
-  google: {
-    families: ["Oswald:300,400,700","Droid Sans:400,700","Roboto:300,regular,500"]
-  }
-});</script><script src="assets/modernizr-2.7.1.js" type="text/javascript"></script>
-	<link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico"
-		rel="shortcut icon" type="image/x-icon">
-	<link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon"><script type="text/javascript" charset="UTF-8" src="assets/common.js"></script><script type="text/javascript" charset="UTF-8"
-		src="assets/util.js"></script><script type="text/javascript" charset="UTF-8" src="assets/marker.js"></script>
-	<script
-		type="text/javascript" charset="UTF-8" src="assets/map.js"></script><script type="text/javascript" charset="UTF-8" src="assets/infowindow.js"></script><script type="text/javascript"
-			charset="UTF-8" src="assets/onion.js"></script><script type="text/javascript" charset="UTF-8" src="assets/stats.js"></script>
-		<script
-			type="text/javascript" charset="UTF-8" src="assets/controls.js"></script>
+
 </head>
 
-<body data-gr-c-s-loaded="true">
-	<div class="left-navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-no-scroll="1">
-		<a class="logo-link w-nav-brand" href="http://shang-gri-la.com/#"><img src="assets/5839d9b81c4185d4362bff97_Shang-gri-La_Logo.svg"><img src="assets/5839db721c4185d4362c002f_salon-concepts-logo.png"></a>
-		<nav
-			class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="http://shang-gri-la.com/#home">Home</a><a class="nav-link w-nav-link" href="http://shang-gri-la.com/#about">Menu</a>
-			<a
-				class="nav-link w-nav-link w--current" href="http://shang-gri-la.com/#gallery">Gallery</a><a class="nav-link w-nav-link" href="http://shang-gri-la.com/#contact">Contact</a></nav>
-				<div class="hamburger-button w-nav-button">
-					<div class="w-icon-nav-menu"></div>
+<body class="stretched" data-loader-html="<img class='infinite animated pulse' src='barber/images/slider-logo.svg' width='300'>">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="60" data-responsive-class="not-dark">
+
+			<div id="header-wrap">
+
+				<div class="container norightpadding clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo"><img src="barber/images/sticky-logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo"><img src="barber/images/sticky-logo@2x.png" alt="Canvas Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="not-dark style-2 center">
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1300" data-offset="60">
+							<li class="active"><a href="#" data-href="#wrapper">Home</a></li>
+							<li><a href="#" data-offset="56" data-href="#service">Service</a></li>
+							<li><a href="#" data-href="#price">Price</a></li>
+							<li><a href="#" data-href="#shop">Shop</a></li>
+							<li><a href="#" data-href="#testimonial">Testimonial</a></li>
+							<li><a href="#" data-href="#contact">Contact</a></li>
+							<li><a href="#" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300" class="button button-color reverse clearfix"><i class="icon-calendar2"></i> Appoinment</a></li>
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
 				</div>
-				<div class="social-footer w-hidden-medium w-hidden-small w-hidden-tiny">
-					<a class="social-icon-link w-inline-block" href="https://www.facebook.com/Shang-gri-La-Salon-181328627655/"><img src="assets/5839d81d1c4185d4362bfe3e_social-03.svg" width="17"></a>
-					<a class="social-icon-link w-inline-block"
-						href="mailto:yoursalon@yahoo.com?Subject=Contact%20from%20website"><img src="assets/5839d81d1c4185d4362bfe24_social-25.svg" width="17"></a>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element slider-parallax page-section full-screen clearfix">
+
+			<div class="slider-parallax-inner" style="background: url('barber/images/hero/hero.jpg') center center no-repeat; background-size: cover;">
+				<div class="vertical-middle center" style="z-index: 2;">
+					<img src="barber/images/slider-logo.svg" alt="Logo" height="180">
+
+					<!-- Slider Navigation
+					============================================= -->
+					<nav class="custom-hero-nav">
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1300" data-offset="60">
+							<li class="active"><a href="#" data-href="#slider">Home</a></li>
+							<li><a href="#" data-offset="56" data-href="#service">Service</a></li>
+							<li><a href="#" data-href="#price">Price</a></li>
+							<li><a href="#" data-href="#shop">Shop</a></li>
+							<li><a href="#" data-href="#testimonial">Testimonial</a></li>
+							<li><a href="#" data-href="#contact">Contact</a></li>
+						</ul>
+					</nav>
 				</div>
-				<div class="w-nav-overlay" data-wf-ignore=""></div>
-	</div>
-	<div class="content">
-		<div class="banner" id="home"></div>
-		<section class="section" id="about">
-			<div class="w-container">
-				<div class="section-title-group">
-					<h2 class="centered section-heading">Menu &amp; Pricing</h2>
-					<div class="center section-subheading">The best of salon services offered at personal prices</div>
-				</div><img sizes="(max-width: 767px) 96vw, (max-width: 991px) 90vw, 59vw" src="assets/5839e6c9e11409586f882560_menu.jpg"
-					srcset="http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-500x308.jpeg 500w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-800x493.jpeg 800w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-1080x665.jpeg 1080w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-1600x985.jpeg 1600w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-2000x1231.jpeg 2000w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-2600x1600.jpeg 2600w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu-p-3200x1970.jpeg 3200w, http://uploads.webflow.com/5839d81d1c4185d4362bfe00/5839e6c9e11409586f882560_menu.jpg 4908w"></div>
-		</section>
-		<section class="call-to-action-section">
-			<div class="w-container">
-				<div class="w-row">
-					<div class="w-col w-col-8">
-						<h2 class="call-to-action-heading">Book your appointment today!</h2>
-					</div>
-					<div class="align-right w-col w-col-4"><a class="hollow-button white" href="http://www.salon-concepts.com/stylist/julia-phillips-bailey">Book Now</a></div>
+
+				<!-- Slider Appointment Button
+				============================================= -->
+				<a href="#" class="button button-large button-color button-appointment d-none d-lg-block" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="icon-calendar2"></i> Make An Appointment</a>
+
+				<!-- Slider Social Icons
+				============================================= -->
+				<div class="slider-social d-none d-lg-block clearfix">
+					<a href="http://facebook.com/semicolonweb" target="_blank" class="social-icon si-small si-borderless si-facebook">
+						<i class="icon-facebook"></i>
+						<i class="icon-facebook"></i>
+					</a>
+					<a href="http://twitter.com/__semicolon" target="_blank" class="social-icon si-small si-borderless si-twitter">
+						<i class="icon-twitter"></i>
+						<i class="icon-twitter"></i>
+					</a>
+					<a href="http://instagram.com/semicolonweb" target="_blank" class="social-icon si-small si-borderless si-instagram">
+						<i class="icon-instagram"></i>
+						<i class="icon-instagram"></i>
+					</a>
+					<a href="http://youtube.com/semicolonweb" target="_blank" class="social-icon si-small si-borderless si-youtube">
+						<i class="icon-youtube"></i>
+						<i class="icon-youtube"></i>
+					</a>
+				</div>
+
+				<div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
+					<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
 				</div>
 			</div>
+
 		</section>
-		<section class="section" id="gallery">
-			<div class="w-container">
-				<div class="section-title-group">
-					<h2 class="centered section-heading">gallery</h2>
-					<div class="center section-subheading">A taste of some style captured</div>
-				</div>
-				<a class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e76c45569b016c4acc6c_shang-gri-la_style (6).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-				<a
-					class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b6d36bab22572ba960_shang-gri-la_style (17).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-					<a
-						class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b645569b016c4accea_shang-gri-la_style (11).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-						<a
-							class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b664d0592803ac2238_shang-gri-la_style (15).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-							<a
-								class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b6b333a5214d30fbbd_shang-gri-la_style (3).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-								<a
-									class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b664d0592803ac2237_shang-gri-la_style (2).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-									<a
-										class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b664d0592803ac2239_shang-gri-la_style (18).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-										<a
-											class="grid-fours w-inline-block w-lightbox" href="http://shang-gri-la.com/#"><img src="assets/5839e7b6d36bab22572ba95f_shang-gri-la_style (4).jpg"><script class="w-json" type="application/json">{ "items": [] }</script></a>
-			</div>
-		</section>
-		<section class="section section-gray" id="contact">
-			<div class="w-container">
-				<div class="section-title-group">
-					<h2 class="centered section-heading">CALL (859)647-1444</h2>
-					<h2 class="centered section-heading">EMAIL YOURSALON@SHANG-GRI-LA.COM</h2>
-				</div>
-				<div>
-					<div class="w-widget w-widget-map" data-disable-scroll="1" data-disable-touch="1" data-widget-latlng="39.006111,-84.654902"
-						data-widget-style="roadmap" data-widget-tooltip="Shang-gri-La @ Salon Concepts" data-widget-zoom="12" style="overflow: hidden;">
-						<div style="height: 100%; width: 100%; position: absolute; background-color: rgb(229, 227, 223);">
-							<div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
-								<div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;">
-									<div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
-										<div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
-											<div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
-												<div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
-													<div style="width: 256px; height: 256px; position: absolute; left: 261px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 5px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 261px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 261px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 517px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 5px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 5px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 517px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 517px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 773px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: -251px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: -251px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 773px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: -251px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; position: absolute; left: 773px; top: 375px;"></div>
-												</div>
-											</div>
-										</div>
-										<div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
-										<div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
-										<div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
-											<div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
-												<div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 261px; top: 119px;">
-														<canvas draggable="false" height="512" width="512" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas>
-													</div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 5px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 261px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 261px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 517px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 5px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 5px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 517px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 517px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 773px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -251px; top: 119px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -251px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 773px; top: -137px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -251px; top: 375px;"></div>
-													<div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 773px; top: 375px;"></div>
-												</div>
-											</div>
-										</div>
-										<div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
-											<div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
-												<div style="position: absolute; left: 261px; top: 119px; transition: opacity 200ms ease-out;"><img src="assets/vt" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-												<div
-													style="position: absolute; left: 5px; top: 119px; transition: opacity 200ms ease-out;"><img src="assets/vt(1)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-											<div
-												style="position: absolute; left: 261px; top: -137px; transition: opacity 200ms ease-out;"><img src="assets/vt(2)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-										<div
-											style="position: absolute; left: 261px; top: 375px; transition: opacity 200ms ease-out;"><img src="assets/vt(3)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-									<div
-										style="position: absolute; left: 517px; top: 119px; transition: opacity 200ms ease-out;"><img src="assets/vt(4)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-								<div
-									style="position: absolute; left: 5px; top: 375px; transition: opacity 200ms ease-out;"><img src="assets/vt(5)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-							<div
-								style="position: absolute; left: 5px; top: -137px; transition: opacity 200ms ease-out;"><img src="assets/vt(6)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-						<div
-							style="position: absolute; left: 517px; top: 375px; transition: opacity 200ms ease-out;"><img src="assets/vt(7)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-					<div
-						style="position: absolute; left: 773px; top: 119px; transition: opacity 200ms ease-out;"><img src="assets/vt(8)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-				<div
-					style="position: absolute; left: -251px; top: 119px; transition: opacity 200ms ease-out;"><img src="assets/vt(9)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-			<div
-				style="position: absolute; left: -251px; top: -137px; transition: opacity 200ms ease-out;"><img src="assets/vt(10)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-	<div
-		style="position: absolute; left: -251px; top: 375px; transition: opacity 200ms ease-out;"><img src="assets/vt(11)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-		<div
-			style="position: absolute; left: 773px; top: 375px; transition: opacity 200ms ease-out;"><img src="assets/vt(12)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-			<div
-				style="position: absolute; left: 517px; top: -137px; transition: opacity 200ms ease-out;"><img src="assets/vt(13)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-				<div
-					style="position: absolute; left: 773px; top: -137px; transition: opacity 200ms ease-out;"><img src="assets/vt(14)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-					</div>
-					</div>
-					</div>
-					<div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;"></div>
-					<div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; height: 100%;"></div>
-					<div style="position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
-						<div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div>
-						<div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div>
-						<div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div>
-						<div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;">
-							<div style="cursor: default; position: absolute; width: 149px; height: 64px; left: 396px; top: 72px; z-index: 72;">
-								<div style="position: absolute; left: 0px; top: 0px;">
-									<div style="width: 0px; height: 0px; border-right: 10px solid transparent; border-left: 10px solid transparent; border-top: 24px solid rgba(0, 0, 0, 0.0980392); position: absolute; left: 65px; top: 64px;"></div>
-									<div style="position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.2); border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; width: 149px; height: 64px;"></div>
-									<div style="border-top-width: 24px; position: absolute; left: 65px; top: 61px;">
-										<div style="position: absolute; overflow: hidden; left: -6px; top: -1px; width: 16px; height: 30px;">
-											<div style="position: absolute; left: 6px; background-color: rgb(255, 255, 255); transform: skewX(22.6deg); transform-origin: 0px 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div>
-										</div>
-										<div style="position: absolute; overflow: hidden; top: -1px; left: 10px; width: 16px; height: 30px;">
-											<div style="position: absolute; left: 0px; background-color: rgb(255, 255, 255); transform: skewX(-22.6deg); transform-origin: 10px 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div>
-										</div>
-									</div>
-									<div style="position: absolute; left: 1px; top: 1px; border-radius: 2px; background-color: rgb(255, 255, 255); width: 147px; height: 62px;"></div>
+
+		<!-- Content
+		============================================= -->
+		<section id="content" style="border-top: 8px solid #bf9456">
+
+			<div class="content-wrap nopadding">
+
+				<!-- About Section
+				============================================= -->
+				<div id="about" class="section nomargin nobg page-section" style="padding: 150px 0">
+					<div class="container clearfix">
+						<div class="row clearfix">
+							<div class="col-md-3 col-6 d-none d-md-block">
+								<img src="barber/images/about/1.jpg" alt="">
+							</div>
+							<div class="col-md-6 col-12 center" style="padding: 0 50px;">
+								<img src="barber/images/icons/cs.svg" alt="" height="60" style="margin-bottom: 20px">
+								<div class="heading-block bottommargin-sm">
+									<h2>About Us</h2>
 								</div>
-								<div class="gm-style-iw" style="top: 9px; position: absolute; left: 15px; width: 119px;">
-									<div style="display: inline-block; overflow: auto; max-height: 318px; max-width: 654px;">
-										<div style="overflow: auto;">Shang-gri-La @ Salon Concepts</div>
-									</div>
-								</div>
-								<div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 10px; z-index: 10000; cursor: pointer;"><img src="assets/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+								<p>Authoritatively communicate world-class alignments before low-risk high-yield growth strategies. Synergistically envisioneer transparent niches after dynamic "outside the box" thinking. Uniquely implement cutting-edge partnerships before synergistic niche markets.</p>
+								<img src="barber/images/about/sign.png" alt="" width="200">
+							</div>
+							<div class="col-md-3 col-6 d-none d-md-block">
+								<img src="barber/images/about/2.jpg" alt="">
 							</div>
 						</div>
 					</div>
+				</div>
+
+				<!-- Service Page Section
+				============================================= -->
+				<div id="service" class="section page-section nobg nopadding notopmargin clearfix">
+
+					<div class="row common-height clearfix bottommargin">
+
+						<!-- Service Image
+						============================================= -->
+						<div class="col-lg-6 center col-padding parallax" style="background-image: url('barber/images/sections/1.jpg');" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -300px;">
+							<div class="vertical-middle dark">
+								<div class="heading-block center">
+									<h2 class="nott ls0" style="font-size: 54px">How We Do</h2>
+								</div>
+							</div>
+						</div>
+
+						<!-- Service Featured Boxes
+						============================================= -->
+						<div class="col-lg-6 col-padding" style="background-color: #F9F9F9">
+							<div>
+								<div class="row clearfix" style="padding: 20px 0">
+									<div class="col-lg-10 col-md-8 bottommargin">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><img src="barber/images/icons/scessior.svg" alt=""></a>
+											</div>
+											<h3>Well Trained Barbers</h3>
+											<p>Proactively matrix go forward manufactured products before premium innovation. Collaboratively fashion.</p>
+										</div>
+									</div>
+									<div class="col-lg-10 col-md-8 bottommargin">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><img src="barber/images/icons/moustache.svg" alt=""></a>
+											</div>
+											<h3>10 Years Expirience</h3>
+											<p>Dynamically transition seamless metrics after premium e-business. Phosfluorescently parallel task distinctive.</p>
+										</div>
+									</div>
+									<div class="col-lg-10 col-md-8 bottommargin">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><img src="barber/images/icons/comb.svg" alt=""></a>
+											</div>
+											<h3>Branded Pr0ducts</h3>
+											<p>Distinctively initiate alternative information with bricks-and-clicks e-commerce. Quickly evolve superior.</p>
+										</div>
+									</div>
+									<div class="col-lg-10 col-md-8 bottommargin">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><img src="barber/images/icons/time.svg" alt=""></a>
+											</div>
+											<h3>Great Location</h3>
+											<p>Holisticly fashion cooperative ROI without unique intellectual capital. Synergistically engage orthogonal.</p>
+										</div>
+									</div>
+									<div class="col-lg-10 col-md-8">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><img src="barber/images/icons/drier1.svg" alt=""></a>
+											</div>
+											<h3>Customer Service</h3>
+											<p>Monotonectally evisculate high standards in best practices before exceptional web-readiness. Competently.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
-					<div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
-						<a target="_blank" href="https://maps.google.com/maps?ll=39.006111,-84.654902&amp;z=12&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3"
-							title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;">
-							<div style="width: 66px; height: 26px; cursor: pointer;"><img src="assets/google4_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+
+					<div class="container topmargin-lg clearfix">
+
+						<div class="row">
+							<!-- Barber Category 1
+							============================================= -->
+							<div class="col-md-4 center bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-media" style="padding: 0 40px;">
+										<a href="#"><img class="rounded-circle img-thumbnail" src="barber/images/features/shave.jpg" alt="Why choose Us?"><span>Shave</span><div class="sale-flash">-30% OFF*</div></a>
+									</div>
+									<div class="fbox-desc">
+										<h3><span class="ls0 subtitle font-primary">Your Property in Good Hands.</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+									</div>
+									<a href="#" class="more-link uppercase ls1 t700" style="margin: 20px 0 0 0; font-style: normal;">Read More</a>
+								</div>
+							</div>
+
+							<!-- Barber Category 2
+							============================================= -->
+							<div class="col-md-4 center bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-media" style="padding: 0 40px;">
+										<a href="#"><img class="rounded-circle img-thumbnail" src="barber/images/features/haircut.jpg" alt="Effective Planning"><span>Haircut</span></a>
+									</div>
+									<div class="fbox-desc">
+										<h3><span class="ls0 subtitle font-primary">Construction Process Organized.</span></h3>
+										<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.</p>
+									</div>
+									<a href="#" class="more-link uppercase ls1 t700" style="margin: 20px 0 0 0; font-style: normal;">Read More</a>
+								</div>
+							</div>
+
+							<!-- Barber Category 3
+							============================================= -->
+							<div class="col-md-4 center bottommargin-lg">
+								<div class="feature-box media-box">
+									<div class="fbox-media" style="padding: 0 40px;">
+										<a href="#"><img class="rounded-circle img-thumbnail" src="barber/images/features/hairwash.jpg" alt="Why choose Us?"><span>Hairwash</span></a>
+									</div>
+									<div class="fbox-desc">
+										<h3><span class="ls0 subtitle font-primary">We have got you Covered.</span></h3>
+										<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum quo.</p>
+									</div>
+									<a href="#" class="more-link uppercase ls1 t700" style="margin: 20px 0 0 0; font-style: normal;">Read More</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Price Page Section - Parallax
+				============================================= -->
+				<div id="price" class="section page-section parallax nobottompadding nobottommargin dark" style="background-image: url('barber/images/sections/3.jpg'); background-size: cover; height: 600px" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;"></div>
+
+				<div class="container bottommargin dark clearfix" style="margin-top: -500px">
+					<div class="heading-block bottommargin-lg center clearfix">
+						<img src="barber/images/icons/wallet-white.svg" alt="" height="40" style="margin-bottom: 20px">
+						<h2>Pricing</h2>
+					</div>
+
+					<!-- Price Items
+					============================================= -->
+					<div class="row dark col-padding clearfix" style="background-color: #121212">
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Haircut</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$39</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">HairWash</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$42</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="w-100 clear"></div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Shave</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$29</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Hair Colour</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$17</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="w-100 clear"></div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Moustache</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$39</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Beard Trim</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$42</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="w-100 clear"></div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Facial</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$29</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="col-lg-6 price-wrap">
+							<div class="price-header">
+								<div class="price-name">
+									<a href="#" class="color">Head Massage</a>
+								</div>
+								<div class="price-dots">
+									<span class="separator-dots"></span>
+								</div>
+								<div class="price-price">$17</div>
+							</div>
+							<p class="price-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+						</div>
+
+						<div class="col-12 center">
+							<a href="#" class="button button-large button-color d-none d-lg-block "><i class="icon-calendar2"></i> Make An Appointment</a>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Shop Page Section
+				============================================= -->
+				<div id="shop" class="section nomargin page-section nobg clearfix">
+
+					<div class="container clearfix">
+						<div class="heading-block center clearfix">
+							<img src="barber/images/icons/comb3.svg" alt="" height="40" style="margin-bottom: 20px">
+							<h2>Shop</h2>
+						</div>
+
+						<div class="row clearfix">
+							<!-- Shop Item 1
+							============================================= -->
+							<div class="col-lg-3 col-md-6 bottommargin">
+								<div class="iproduct">
+									<div class="product-image">
+										<a href="#"><img class="image_fade" src="barber/images/shop/1.jpg" alt="High-Heel Girl's Sandals"></a>
+										<a href="#" class="shop-icon"><i class="icon-shopping-cart"></i></a>
+									</div>
+									<div class="product-desc center">
+										<div class="product-price"><ins>$21.49</ins></div>
+										<div class="product-title"><h3><a href="#">Razor</a></h3></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Shop Item 2
+							============================================= -->
+							<div class="col-lg-3 col-md-6 bottommargin">
+								<div class="iproduct">
+									<div class="product-image">
+										<a href="#"><img class="image_fade" src="barber/images/shop/2.jpg" alt="High-Heel Girl's Sandals"></a>
+										<a href="#" class="shop-icon"><i class="icon-shopping-cart"></i></a>
+									</div>
+									<div class="product-desc center">
+										<div class="product-price"><ins>$12.49</ins></div>
+										<div class="product-title"><h3><a href="#">Shave Brush</a></h3></div>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Shop Item 3
+							============================================= -->
+							<div class="col-lg-3 col-md-6 bottommargin">
+								<div class="iproduct">
+									<div class="product-image">
+										<a href="#"><img class="image_fade" src="barber/images/shop/3.jpg" alt="High-Heel Girl's Sandals"></a>
+										<a href="#" class="shop-icon"><i class="icon-shopping-cart"></i></a>
+									</div>
+									<div class="product-desc center">
+										<div class="product-price"><ins>$21.99</ins></div>
+										<div class="product-title"><h3><a href="#">Beard oil</a></h3></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Shop Item 4
+							============================================= -->
+							<div class="col-lg-3 col-md-6 bottommargin">
+								<div class="iproduct">
+									<div class="product-image">
+										<a href="#"><img class="image_fade" src="barber/images/shop/4.jpg" alt="High-Heel Girl's Sandals"></a>
+										<div class="sale-flash">-50%*</div>
+										<a href="#" class="shop-icon"><i class="icon-shopping-cart"></i></a>
+									</div>
+									<div class="product-desc center">
+										<div class="product-price"><del>$24.99</del> <ins>$19.49</ins></div>
+										<div class="product-title"><h3><a href="#">Hair Brush</a></h3></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="center">
+							<a href="#" class="button button-large button-color">+ More Products</a>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Testimonial Page Section
+				============================================= -->
+				<div id="testimonial" class="section page-section parallax nobottompadding dark clearfix" style="background-image: url('barber/images/sections/2.jpg'); background-size: cover;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
+					<div class="container clearfix">
+
+						<div class="heading-block center">
+							<img src="barber/images/icons/stars.svg" alt="" height="50" style="margin-bottom: 20px">
+							<h3 class="ls2">Testimonials</h3>
+						</div>
+
+						<!-- Testimonial Slider
+						============================================= -->
+						<div class="fslider testimonial testimonial-full nobgcolor noborder noshadow nopadding bottommargin-sm divcenter center clearfix" data-arrows="false" style="max-width: 700px">
+							<div class="flexslider">
+								<div class="slider-wrap">
+									<div class="slide">
+										<div class="testi-content">
+											<p>Collaboratively enhance intermandated innovation via cutting-edge core competencies. Professionally extend covalent e-markets and mission-critical communities. Dramatically communicate revolutionary web services for interactive synergy. Synergistically.</p>
+											<div class="testi-meta">
+												Steve Jobs
+												<span class="ls0">Apple Inc.</span>
+											</div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="testi-content">
+											<p>Intrinsicly synergize excellent content whereas user friendly action items. Rapidiously transition multimedia based information after top-line alignments. Proactively e-enable front-end e-commerce without mission-critical customer service.</p>
+											<div class="testi-meta">
+												Collis Ta'eed
+												<span class="ls0">Envato Inc.</span>
+											</div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="testi-content">
+											<p>Compellingly engage multimedia based niche markets via value-added manufactured products. Competently formulate goal-oriented content for installed base users. Uniquely leverage other's granular ROI without 24/365 collaboration and idea-sharing.</p>
+											<div class="testi-meta">
+												John Doe
+												<span class="ls0">XYZ Inc.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Clients Logo Carousel Area
+					============================================= -->
+					<div id="oc-clients" class="owl-carousel owl-carousel-full image-carousel carousel-widget topmargin-lg nobottommargin" data-margin="0" data-nav="false" data-pagi="false" data-autoplay="3000" data-items-xs="3" data-items-sm="3" data-items-md="5" data-items-lg="6" data-items-xl="6" data-loop="true" style="z-index: 2; padding: 30px 0; border-top: 1px solid rgba(255,255,255,0.15);">
+
+						<!-- Clients items
+						============================================= -->
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/1.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/4.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/6.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/2.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/3.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/5.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/7.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/8.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="barber/images/clients/9.png" alt="Brands"></a></div>
+
+					</div>
+
+					<div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
+						<div class="video-overlay" style="background: rgba(0,0,0,0.7);"></div>
+					</div>
+
+				</div>
+
+				<!-- Barber Teams
+				============================================= -->
+				<div class="section nobg nobottommargin topmargin-sm clearfix">
+
+					<div class="container clearfix">
+
+						<div class="heading-block center">
+							<img src="barber/images/icons/team.svg" alt="" height="50" style="margin-bottom: 20px">
+							<h3 class="ls2">Our Barbers</h3>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, esse eum doloremque deleniti nam voluptatem.</span>
+						</div>
+
+						<div class="row">
+							<!-- Team 1
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/1.jpg" alt="John Doe">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<a href="#" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-github" title="Github">
+													<i class="icon-github"></i>
+													<i class="icon-github"></i>
+												</a>
+											</div>
+											<a href="#" class="button button-large button-color nothidden">Appointment</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>John Doe</h4><span>Expert</span></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Team 2
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/2.jpg" alt="Josh Thompson">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<a href="#" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-gplus" title="gplus">
+													<i class="icon-gplus"></i>
+													<i class="icon-gplus"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+											</div>
+											<a href="#" class="button button-large button-color nothidden">Appointment</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Josh Thompson</h4><span>Barber</span></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Team 3
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/3.jpg" alt="Mary Jane">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<a href="#" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-linkedin" title="linkedin">
+													<i class="icon-linkedin"></i>
+													<i class="icon-linkedin"></i>
+												</a>
+											</div>
+											<a href="#" class="button button-large button-color nothidden">Appointment</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Mary Jane</h4><span>Junior Barber</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- Contact Page Section
+				============================================= -->
+				<div id="contact" class="row common-height page-section notoppadding clearfix">
+
+					<div id="popular-dest-map" class="col-lg-6 col-padding gmap d-none d-md-block"></div>
+
+					<div class="col-lg-6 col-padding " style="background-color: #F9F9F9;">
+						<div class="max-height">
+							<h3 class="uppercase">Our Headquarters</h3>
+							<div class="row topmargin-sm clearfix" style="font-size: 16px; line-height: 1.7;">
+								<div class="col-lg-6">
+									<address style="line-height: 1.7;">
+										<strong>North America:</strong><br>
+										795 Folsom Ave, Suite 600<br>
+										San Francisco, CA 94107<br>
+									</address>
+								</div>
+								<div class="col-lg-6">
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+								</div>
+							</div>
+
+							<div class="contact-widget">
+
+								<div class="contact-form-result"></div>
+
+								<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+									<div class="form-process"></div>
+
+									<div class="col_half">
+										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Name" />
+									</div>
+									<div class="col_half col_last">
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Email Address" />
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="col_one_third">
+										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control border-form-control" placeholder="Phone" />
+									</div>
+
+									<div class="col_two_third col_last">
+										<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control border-form-control" placeholder="Subject" />
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="col_full">
+										<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Your Message"></textarea>
+									</div>
+
+									<div class="col_full nobottommargin">
+										<button class="button button-large button-color noleftmargin topmargin-sm" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="col_full hidden">
+										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Promo Bar
+				============================================= -->
+				<div class="section nomargin nopadding dark clearfix" style="background: url('barber/images/sections/4.jpg') no-repeat 10% 50%; background-size: cover;">
+					<a href="#" class="button button-full nobg font-serif center" style="padding: 60px 0">
+						<div class="container clearfix">
+							Book your visit online and save upto <strong>25% Discount</strong> &rarr;
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark" style="background-color: #121212; padding: 60px 0">
+
+			<div class="container clearfix">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap center clearfix">
+
+					<img src="barber/images/slider-logo.svg" width="200" alt="">
+
+					<div class="topmargin-lg clearfix">
+						<a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-gplus">
+							<i class="icon-gplus"></i>
+							<i class="icon-gplus"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-pinterest">
+							<i class="icon-pinterest"></i>
+							<i class="icon-pinterest"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-vimeo">
+							<i class="icon-vimeo"></i>
+							<i class="icon-vimeo"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-rounded si-borderless inline-block si-instagram">
+							<i class="icon-instagram"></i>
+							<i class="icon-instagram"></i>
 						</a>
 					</div>
-					<div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 320px; top: 110px;">
-						<div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div>
-						<div style="font-size: 13px;">Map data ©2016 Google</div>
-						<div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="assets/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-					</div>
-					<div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 166px; bottom: 0px; width: 121px;">
-						<div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;">
-							<div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
-								<div style="width: 1px;"></div>
-								<div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
-							</div>
-							<div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2016 Google</span></div>
-						</div>
-					</div>
-					<div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
-						<div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2016 Google</div>
-					</div>
-					<div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;">
-						<div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
-							<div style="width: 1px;"></div>
-							<div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
-						</div>
-						<div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div>
-					</div>
-					<div style="width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="assets/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-					<div
-						draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;">
-						<div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
-							<div style="width: 1px;"></div>
-							<div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
-						</div>
-						<div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@39.006111,-84.654902,12z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3"
-								style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div>
-						</div>
-						<div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="55"
-							style="margin: 10px; user-select: none; position: absolute; bottom: 69px; right: 28px;">
-							<div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 0px;">
-								<div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;">
-									<div title="Zoom in" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;">
-										<div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="assets/tmapctrl_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div>
-									</div>
-									<div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div>
-									<div title="Zoom out" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;">
-										<div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="assets/tmapctrl_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div>
-									</div>
-								</div>
-							</div>
-							<div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;">
-								<div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img src="assets/tmapctrl4_hdpi.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-								<div
-									class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img src="assets/tmapctrl4_hdpi.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
-						</div>
-						</div>
-						</div>
-						</div>
-						</div>
-						</div>
-						</div>
-						</section>
-						<footer class="center footer">
-							<div class="w-container">
-								<div class="footer-text">Julia Bailey | Hair Stylist Florence Kentucky</div>
-							</div>
-						</footer>
-						</div><script src="assets/jquery.min.js" type="text/javascript"></script>
-						<script src="assets/webflow.bd8006482.js" type="text/javascript"></script>
-						<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
-						<div class="extLives"></div>
-						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0" style="display: none;">
-							<defs>
-								<filter id="normal">
-									<fecolormatrix values="1 0 0 0 0     0 1 0 0 0     0 0 1 0 0     0 0 0 1 0"></fecolormatrix>
-								</filter>
-								<filter id="protanopia" color-interpolation-filters="sRGB">
-									<fecolormatrix values="0.152286 1.052583 -0.204868 0 0     0.114503 0.786281 0.099216 0 0     -0.003882 -0.048116 1.051998 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="protanomaly" color-interpolation-filters="sRGB">
-									<fecolormatrix values="0.458064 0.679578 -0.137642 0 0     0.092785 0.846313 0.060902 0 0     -0.007494 -0.016807 1.024301 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="deuteranopia" color-interpolation-filters="sRGB">
-									<fecolormatrix values="0.367322 0.860646 -0.227968 0 0     0.280085 0.672501 0.047413 0 0     -0.011820 0.042940 0.968881 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="deuteranomaly" color-interpolation-filters="sRGB">
-									<fecolormatrix values="0.547494 0.607765 -0.155259 0 0     0.181692 0.781742 0.036566 0 0     -0.010410 0.027275 0.983136 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="tritanopia" color-interpolation-filters="sRGB">
-									<fecolormatrix values="1.255528 -0.076749 -0.178779 0 0     -0.078411 0.930809 0.147602 0 0     0.004733 0.691367 0.303900 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="tritanomaly" color-interpolation-filters="sRGB">
-									<fecolormatrix values="1.017277 0.027029 -0.044306 0 0     -0.006113 0.958479 0.047634 0 0     0.006379 0.248708 0.744913 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="achromatopsia" color-interpolation-filters="sRGB">
-									<fecolormatrix values="0.212656 0.715158 0.072186 0 0     0.212656 0.715158 0.072186 0 0     0.212656 0.715158 0.072186 0 0     0 0 0 1 0"></fecolormatrix>
-									<fecolormatrix type="saturate" values="0" color-interpolation-filters="sRGB"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="achromatomaly" color-interpolation-filters="sRGB">
-									<fecolormatrix type="saturate" values="0.5"></fecolormatrix>
-									<fecomponenttransfer>
-										<fefuncr type="gamma" exponent=".9"></fefuncr>
-										<fefuncg type="gamma" exponent=".9"></fefuncg>
-										<fefuncb type="gamma" exponent=".9"></fefuncb>
-									</fecomponenttransfer>
-								</filter>
-								<filter id="low-contrast" color-interpolation-filters="sRGB">
-									<fecomponenttransfer>
-										<!-- slope = [amount] intercept = (1 - [amount] / 2) -->
-										<fefuncr type="linear" slope=".5" intercept=".25"></fefuncr>
-										<fefuncg type="linear" slope=".5" intercept=".25"></fefuncg>
-										<fefuncb type="linear" slope=".5" intercept=".25"></fefuncb>
-									</fecomponenttransfer>
-								</filter>
-							</defs>
-						</svg>
-</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>
+					<div class="uppercase ls3" style="color: #333; margin-top: 10px">&copy; Canvas Inc. 2017. All Rights Reserved.</div>
 
+				</div>
+
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<!-- Map
+	============================================= -->
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyDGka1X-NRAvbiYrAzYRTYsbhTQIKFdyLI"></script>
+	<script src="js/jquery.gmap.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		// Map Scripts
+		jQuery(window).on( 'load', function(){
+
+			jQuery('#popular-dest-map').gMap({
+				address: 'Spain',
+				maptype: 'ROADMAP',
+				zoom: 4,
+				markers: [
+					{
+						address: "Ibiza, Spain",
+						icon: {
+							image: "barber/images/map-marker.png",
+							iconsize: [32, 39],
+							iconanchor: [16,36]
+						}
+					}
+				],
+				doubleclickzoom: false,
+				controls: {
+					panControl: false,
+					zoomControl: true,
+					mapTypeControl: false,
+					scaleControl: false,
+					streetViewControl: false,
+					overviewMapControl: false
+				},
+				styles: [
+			{elementType: 'geometry', stylers: [{color: '#333333'}]},
+			{elementType: 'labels.text.stroke', stylers: [{color: '#222222'}]},
+			{elementType: 'labels.text.fill', stylers: [{color: '#bf9456'}]},
+			{
+			  featureType: 'administrative.locality',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#bf9456'}]
+			},
+			{
+			  featureType: 'poi',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#bf9456'}]
+			},
+			{
+			  featureType: 'poi.park',
+			  elementType: 'geometry',
+			  stylers: [{color: '#111111'}]
+			},
+			{
+			  featureType: 'poi.park',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#000000'}]
+			},
+			{
+			  featureType: 'road',
+			  elementType: 'geometry',
+			  stylers: [{color: '#a07c48'}]
+			},
+			{
+			  featureType: 'road',
+			  elementType: 'geometry.stroke',
+			  stylers: [{color: '#a07c48'}]
+			},
+			{
+			  featureType: 'road',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#a07c48'}]
+			},
+			{
+			  featureType: 'road.highway',
+			  elementType: 'geometry',
+			  stylers: [{color: '#bf9456'}]
+			},
+			{
+			  featureType: 'road.highway',
+			  elementType: 'geometry.stroke',
+			  stylers: [{color: '#bf9456'}]
+			},
+			{
+			  featureType: 'road.highway',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#f3d19c'}]
+			},
+			{
+			  featureType: 'transit',
+			  elementType: 'geometry',
+			  stylers: [{color: '#000000'}]
+			},
+			{
+			  featureType: 'transit.station',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#bf9456'}]
+			},
+			{
+			  featureType: 'water',
+			  elementType: 'geometry',
+			  stylers: [{color: '#222222'}]
+			},
+			{
+			  featureType: 'water',
+			  elementType: 'labels.text.fill',
+			  stylers: [{color: '#222222'}]
+			},
+			{
+			  featureType: 'water',
+			  elementType: 'labels.text.stroke',
+			  stylers: [{color: '#222222'}]
+			}
+		  ]
+			});
+		});
+	</script>
+
+</body>
 </html>
