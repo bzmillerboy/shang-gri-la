@@ -47,7 +47,7 @@ nav.custom-hero-nav { display: none; }
 .button.button-color.reverse,
 .button.button-color:hover {
 	background-color: #222 !important;
-	color: #bF9456 !important;
+	color: #AAAC4C !important;
 }
 
 #header:not(.sticky-header) #primary-menu .button.button-color {
@@ -105,7 +105,7 @@ nav.custom-hero-nav { display: none; }
 
 .dark .testi-meta {
 	font-size: 18px;
-	color: #bF9456;
+	color: #AAAC4C;
 	letter-spacing: 1px;
 	margin-top: 30px;
 }
@@ -113,7 +113,7 @@ nav.custom-hero-nav { display: none; }
 .testi-content p:before,
 .testi-content p:after {
 	position: absolute;
-	color: #bF9456;
+	color: #AAAC4C;
 	font-size: 100px;
 	top: 0;
 	line-height: 1.4;
@@ -139,12 +139,21 @@ nav.custom-hero-nav { display: none; }
 
 /*	Pricing
 -----------------------------------------------------------------*/
+
+.price-menu.dark .fancy-title h3 {
+	background-color: #121212;
+}
+.price-menu.dark .fancy-title {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
 .price-wrap {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	padding: 0px;
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 }
 
 .price-header {
@@ -164,7 +173,7 @@ nav.custom-hero-nav { display: none; }
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 400;
-	color: #bF9456;
+	color: #AAAC4C;
 	font-family: 'PT Sans Caption';
 }
 
@@ -191,6 +200,7 @@ nav.custom-hero-nav { display: none; }
 p.price-desc {
 	font-size: 14px;
 	color: #888;
+	margin-bottom: 0;
 }
 
 .iproduct .product-image a.shop-icon {
@@ -209,7 +219,7 @@ p.price-desc {
 
 .iproduct .product-image a.shop-icon i {
 	padding: 15px;
-	background-color: #bF9456;
+	background-color: #AAAC4C;
 	color: #111;
 	border-radius: 50%;
 	-webkit-transition: background-color .3s ease;
@@ -244,6 +254,22 @@ p.price-desc {
 	bottom: 20px;
 }
 
+@media (max-width: 992px) {
+	.price-menu.col-padding {
+		padding: 10px;
+		margin: 0 -30px;
+	}
+}
+@media (max-width: 413px) {
+	.price-name {
+		display: table-cell;
+		width: 100%;
+		white-space: inherit;
+		padding-right: 10px;
+	}
+}
+
+
 /* Border Form Design
 ---------------------------------------------------------------------------- */
 
@@ -257,7 +283,7 @@ p.price-desc {
 	border-right: transparent;
 	border-left: transparent;
 	border-bottom-width: 1px;
-	border-color: #bF9456;
+	border-color: #AAAC4C;
 	font-family: 'PT Sans Captions', sans-serif;
 }
 
@@ -342,7 +368,7 @@ textarea.border-form-control {
 	}
 
 	nav.custom-hero-nav li.active a,
-	nav.custom-hero-nav li:hover a { color: #bF9456; }
+	nav.custom-hero-nav li:hover a { color: #AAAC4C; }
 
 	#header:not(.sticky-header) { z-index: -1; }
 	#header #header-wrap {

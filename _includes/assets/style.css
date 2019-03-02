@@ -1410,7 +1410,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 
 body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.center > ul,
 body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.center > div {
-	float: none;
+	float: right;
 	display: inline-block !important;
 	width: auto;
 	text-align: left;

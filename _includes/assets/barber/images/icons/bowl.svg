@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.08 50.8"><defs><style>.cls-1{fill:#bd9254;}</style></defs><title>bowl</title><g id="Layer_2" data-name="Layer 2"><g id="_1" data-name=" 1"><path class="cls-1" d="M54.65,7.91a3.27,3.27,0,0,0-1.34-4.43L47.55.39a3.27,3.27,0,0,0-4.43,1.34L34.18,18.38H49Z"/><path class="cls-1" d="M47.58,23.06H0a30.68,30.68,0,0,0,61.08,0Z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="51px" viewBox="0 0 62 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>bowl</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bowl" fill="#AAAC4C">
+            <path d="M54.65,7.91 C55.0604822,7.14499276 55.1498972,6.24815137 54.8985359,5.41715845 C54.6471746,4.58616553 54.0756723,3.88924041 53.31,3.48 L47.55,0.39 C46.7849928,-0.0204822329 45.8881514,-0.109897166 45.0571584,0.141464125 C44.2261655,0.392825415 43.5292404,0.964327733 43.12,1.73 L34.18,18.38 L49,18.38 L54.65,7.91 Z" id="Path"></path>
+            <path d="M47.58,23.06 L0,23.06 C1.50865167,38.7979199 14.7299351,50.8124071 30.54,50.8124071 C46.3500649,50.8124071 59.5713483,38.7979199 61.08,23.06 L47.58,23.06 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
