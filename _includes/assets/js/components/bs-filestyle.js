@@ -1,6 +1,6 @@
 /*!
  * bootstrap-fileinput v4.5.2
- * http://plugins.krajee.com/file-input
+ * https://plugins.krajee.com/file-input
  *
  * Author: Kartik Visweswaran
  * Copyright: 2014 - 2018, Kartik Visweswaran, Krajee.com
